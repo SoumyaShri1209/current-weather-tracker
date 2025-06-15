@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether detecting app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Weather App</h1>
+     <div id="input-container">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="city-button">Get Weather</button>
+     </div>
+     <div id="weather-info" class="hidden">
+        <h2 id="city-name"></h2>
+  <p><span class="label">Temperature:</span> <span id="temperature" class="value"></span></p>
+  <p><span class="label">Feels like:</span> <span id="feelsLike" class="value"></span></p>
+  <p><span class="label">Humidity:</span> <span id="humidity" class="value"></span></p>
+  <p><span class="label">Description:</span> <span id="description" class="value"></span></p>
+     </div>
+     <p id="error-message" class="hidden">City not found. Please try again </p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
