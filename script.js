@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded",()=>{
          city_name.textContent=name;
          temperature.textContent = `${tempC} °C`;
          feels_like.textContent = `${feelsLikeC} °C`;
-         humidity.textContent = `${main.humidity}`;
+         humidity.textContent = `${main.humidity}%`;
          description.textContent = `${weather[0].description}`;
 
 
