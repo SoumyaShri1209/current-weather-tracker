@@ -26,9 +26,10 @@ Try the Current Weather Tracker app online:
 ## 📦 How to Use
 
 1. Open the app in your browser.
-2. Enter the city name in the search box.
-3. Click the search button.
-4. View the current weather details for the entered city.
+2. Enter the city name and country code in the search box.
+3. Country code is optional.
+4. Click the search button.
+5. View the current weather details for the entered city.
 
 
 ## Installation

@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded",()=>{
     let city_input =document.getElementById("city-input")
+    let country_input = document.getElementById("country-input");
     let city_button =document.getElementById("city-button")
     let weather_info =document.getElementById("weather-info")
     let city_name =document.getElementById("city-name")
@@ -13,7 +14,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 
       city_button.addEventListener("click",async function(){
         let city = city_input.value.trim();
+        let country = country_input.value.trim(); 
         if(city=="") return ;
+        let query = country ? `${city},${country}` : city;
 
         try {
             let information = await fetchWeatherData(city)
