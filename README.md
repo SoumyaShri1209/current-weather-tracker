@@ -40,7 +40,5 @@ To run this project locally:
 2. Open the project folder.
 3. Open the `index.html` file in your browser.
 
----
 
-Feel free to reach out if you want to contribute or report issues!
 
