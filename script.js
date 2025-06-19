@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
       function displayweatherData(info){
-            
+            console.log(info)
          const {name,main,weather} = info;
 
              const tempC = (main.temp - 273.15).toFixed(1);
